@@ -2,6 +2,17 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Dependencies
+* firebase
+* commitizen
+* bootstrap
+* react-bootstrap
+
+## Commiting
+This repo uses commitizen and commit lint as a standard commiting tool, for commiting code use: 
+```console
+user:~$ yarn cm
+```
 ## Available Scripts
 
 In the project directory, you can run:
