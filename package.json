@@ -16,7 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "cm": "cz"
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +43,11 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
+    },
+    "commitlint": {
+      "extends": [
+      "@commitlint/config-conventional"
+      ]
     }
   }
 }
