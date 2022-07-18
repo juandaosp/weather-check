@@ -1,0 +1,12 @@
+.register {
+  width: 35%;
+  min-width: 450px;
+  &__header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  &__login-link {
+    padding: 1em;
+    text-align: center;
+  }
+}

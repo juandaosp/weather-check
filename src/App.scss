@@ -1,0 +1,16 @@
+.my-weather {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  margin-left: 0.5em;
+  &--secondary {
+    color: white;
+  }
+}

@@ -1,0 +1,16 @@
+.login {
+  width: 25%;
+  min-width: 450px;
+  &__header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  &__register-link {
+    padding: 1em;
+    text-align: center;
+  }
+  &__forget-password {
+    padding: 1em;
+    text-align: center;
+  }
+}
